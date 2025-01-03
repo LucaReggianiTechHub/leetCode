@@ -21,13 +21,10 @@ Output: `"apbqrs"`
 Input: `word1 = "abcd", word2 = "pq"`  
 Output: `"apbqcd"`
 
----
 
 ## Intuition
 
 The problem requires alternating the characters from both strings, starting with the first string. This can be done by iterating through both strings and adding characters to the result. If one string is longer, we can append the remaining characters after the loop.
-
----
 
 ## Approach
 
@@ -36,7 +33,6 @@ The problem requires alternating the characters from both strings, starting with
 3. After iterating through both strings, if one string is longer, append the remaining characters to the result.
 4. **Return the merged string** using `''.join()` to convert the list back to a string.
 
----
 
 ## Time and Space Complexity
 
