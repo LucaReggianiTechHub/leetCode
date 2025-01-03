@@ -1,4 +1,4 @@
-# Merge Alternately - LeetCode Solution
+# Merge Alternately - Difficulty Level: Easy
 
 ## Problem Statement
 
