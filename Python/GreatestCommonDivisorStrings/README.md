@@ -77,6 +77,4 @@ Other operations, such as the math.gcd function and temporary variables, use con
 
 Thus, the space complexity is O(gcd(n, m)).
 
-- We only use a few variables (e.g., for the GCD and the candidate substring) and do not allocate extra space proportional to the input size.
-
 ---
