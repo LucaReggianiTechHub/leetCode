@@ -69,7 +69,13 @@ The time complexity of the solution is **O(n + m)**, where `n` and `m` are the l
 Thus, the total time complexity is **O(n + m)**.
 
 ### Space Complexity
-The space complexity is **O(1)**.
+The space complexity is O(gcd(n, m)).
+
+The substring str1[:length] creates a new string of size length, which corresponds to O(gcd(n, m)) space.
+
+Other operations, such as the math.gcd function and temporary variables, use constant space.
+
+Thus, the space complexity is O(gcd(n, m)).
 
 - We only use a few variables (e.g., for the GCD and the candidate substring) and do not allocate extra space proportional to the input size.
 
