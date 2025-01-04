@@ -76,6 +76,5 @@ The space complexity is **O(n)** due to the space used to store the `result` lis
 
 - The `result` list contains `n` boolean values, hence using **O(n)** space.
 - Other auxiliary space usage, such as the `max_candies` variable, is constant and does not affect the overall space complexity.
-
-Thus, the space complexity is **O(n)**.
+- Thus, the space complexity is **O(n)**.
 ---
