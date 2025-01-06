@@ -1,58 +1,68 @@
 # LeetCode Solutions
 
-Welcome to my repository of LeetCode solutions! This repository contains solutions to a variety of problems from LeetCode, implemented in **Python** and **Java**. The problems are categorized by difficulty (Easy, Medium, Hard) and topic (e.g., Arrays, Strings, Dynamic Programming, etc.), making it easy to navigate and find solutions based on your current skill level and the problem type.
-
-## Folder Structure
-
-Each language folder (Python/Java) contains subfolders categorized by difficulty (Easy, Medium, Hard). Inside these difficulty-based folders, problems are further organized by topic.
-
+Welcome to my repository of LeetCode solutions! This repository contains solutions to a variety of problems from LeetCode, implemented in **Python**. The problems are organized by topic (e.g., Arrays, Strings, Dynamic Programming, etc.), making it easy to navigate and find solutions based on the problem type. Inside each problem's folder, you'll find the code and a detailed explanation.
 
 ## Repository Structure
 
 The repository is organized into the following structure:
+
 ```
 leetCode/
 ├── Python/
 │   ├── Arrays/
-│   │   ├── ArrayProblem1.py
-│   │   ├── ArrayProblem2.py
+│   │   ├── ArrayProblem1/
+│   │   │   ├── ArrayProblem1.py
+│   │   │   ├── README.md
+│   │   ├── ArrayProblem2/
+│   │   │   ├── ArrayProblem2.py
+│   │   │   ├── README.md
 │   │   └── ...
 │   ├── Strings/
-│   │   ├── StringProblem1.py
-│   │   ├── StringProblem2.py
+│   │   ├── StringProblem1/
+│   │   │   ├── StringProblem1.py
+│   │   │   ├── README.md
+│   │   ├── StringProblem2/
+│   │   │   ├── StringProblem2.py
+│   │   │   ├── README.md
 │   │   └── ...
 │   └── ...
-├── Java/
-│   ├── Arrays/
-│   │   ├── ArrayProblem1.java
-│   │   ├── ArrayProblem2.java
-│   │   └── ...
-│   ├── Strings/
-│   │   ├── StringProblem1.java
-│   │   ├── StringArrayProblem2.java
-│   │   └── ...
 ```
 
 ## Contents
 
-- **Easy:** Problems that are suitable for beginners to intermediate coders.
-- **Medium:** Problems that require more problem-solving and algorithmic thinking.
-- **Hard:** Advanced problems that challenge your coding and problem-solving skills.
+Each problem's folder contains:
 
-Each problem is solved using the best practices for the respective language, with code comments explaining the thought process and solution approach.
+- **Code**: The solution implemented in Python.
+- **README**: A detailed explanation of the problem, including:
+  - Problem Statement
+  - Intuition
+  - Approach
+  - Complexity Analysis
+  - Code with comments
+  - The **level of difficulty** is indicated in the `README.md`.
 
 ## How to Use
 
-1. Choose the language you want to explore (`Python` or `Java`).
-2. Navigate to the difficulty level (Easy, Medium, Hard).
-3. Select the topic (e.g., Arrays, Strings).
-4. Review the solution, comments, and explanations to understand the approach.
-5. Feel free to clone or fork the repository to test solutions on your local machine!
+1. **Navigate to a Topic**: Choose the topic you're interested in (e.g., Arrays, Strings, Dynamic Programming) within the `Python` folder.
+2. **Select a Problem**: Inside the topic folder, select a problem by navigating into its dedicated folder.
+3. **Review Solution and Explanation**:
+   - Open the `.py` file to view the solution code.
+   - Open the `README.md` to read the problem statement and the detailed explanation of the solution.
+
+Feel free to **clone** or **fork** the repository to test the solutions on your local machine!
+
+## Future Work
+
+- **Java Solutions Coming Soon**: Plans are underway to include solutions implemented in **Java**. Stay tuned for updates!
 
 ## Contributing
 
-Feel free to open an issue or submit a pull request if you'd like to contribute a new solution or improve existing ones.
+Contributions are welcome! If you'd like to contribute a new solution or improve existing ones:
+
+1. Fork the repository.
+2. Create a new branch for your feature or improvement.
+3. Submit a pull request with your changes.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
